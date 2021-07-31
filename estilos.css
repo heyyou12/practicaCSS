@@ -1,0 +1,31 @@
+::after,::before{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color:coral;
+    height: 30vh;
+
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+
+   
+}
+.items{
+   
+    border: medium solid springgreen;
+    width: 20%;
+    background-color: cornflowerblue;
+    display: flex;
+
+}
+.cla{ 
+    flex-direction:row;/*row-reverse| column|column-reverse*/
+    flex-wrap: nowrap;/*nowrap|wrap|wwrap-reverse*/
+    justify-content: flex-start;/* define la alineacion de los elementos hijos, respe
+    cto de eje principal*/
+    align-items: center;
+}
+

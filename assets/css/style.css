@@ -1,0 +1,21 @@
+body{
+    color: white;
+}
+.contenedor{
+
+display: flex;
+background-color: tomato;
+height: 200px;
+justify-content:center;
+
+
+
+
+
+}
+.items{
+display: flex;
+background-color:seagreen;
+align-items: flex-start;
+
+}
